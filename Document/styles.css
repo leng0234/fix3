@@ -280,13 +280,13 @@ input[type="file"] {
     font-size: 24px; /* Increased font size */
     font-weight: bold; /* Optional: Makes text bolder */
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background 0.3s ease;
 
     /* Positioning */
     position: absolute;
-    left: 890px;
+    left: 590px;
     bottom: 124px;
 }
 
@@ -416,4 +416,26 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.reset-button {
+    width: 363.485px;
+    height: 71px;
+    background-color: #f0f2f5;
+    color: red;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Optional: Makes text bolder */
+    border: 2px solid red; /* Added red border */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    /* Positioning */
+    position: absolute;
+    left: 1090px;
+    bottom: 124px;
+}
+
+.reset-button:hover {
+    background-color: #ff8888;
 }
