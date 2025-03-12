@@ -272,27 +272,6 @@ input[type="file"] {
     display: none;
 }
 
-.submit-button {
-    width: 363.485px;
-    height: 71px;
-    background-color: #112D4E;
-    color: white;
-    font-size: 24px; /* Increased font size */
-    font-weight: bold; /* Optional: Makes text bolder */
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-
-    /* Positioning */
-    position: absolute;
-    left: 590px;
-    bottom: 124px;
-}
-
-.submit-button:hover {
-    background-color: #007bff;
-}
 
 /* Profile Dropdown */
 
@@ -432,10 +411,30 @@ button {
 
     /* Positioning */
     position: absolute;
-    left: 1090px;
+    left: 1150px;
     bottom: 124px;
 }
 
-.reset-button:hover {
-    background-color: #ff8888;
+
+
+.submit-button {
+    width: 363.485px;
+    height: 71px;
+    background-color: #112D4E;
+    color: white;
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Optional: Makes text bolder */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    /* Positioning */
+    position: absolute;
+    left: 590px;
+    bottom: 124px;
+}
+
+.submit-button:hover {
+    background-color: #007bff;
 }
